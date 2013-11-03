@@ -56,8 +56,6 @@ module VagrantPlugins
 
 
         @machine.communicate.tap do |comm|
-          @machine.env.ui.info(command, :new_line => true, :prefix => false)
-
           # Execute it with sudo
           comm.execute(command, sudo: config.privileged) do |type, data|
             if [:stderr, :stdout].include?(type)

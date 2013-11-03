@@ -60,9 +60,6 @@ module VagrantPlugins
             @extra_vars[k] = v.to_s
           end
         end
-
-        puts("finalize")
-        puts(@guest_folder)
       end
 
       def validate(machine)
