@@ -4,7 +4,7 @@ This Vagrant plugin allow provisioning your VM with ansible playbooks directly f
 
 ## Installation
 
-install this vagrant plugin by running (won't work yet)
+install this vagrant plugin by running
 
     vagrant plugin install vagrant-ansible-local
 
