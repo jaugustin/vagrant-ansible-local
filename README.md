@@ -8,6 +8,10 @@ install this vagrant plugin by running
 
     vagrant plugin install vagrant-ansible-local
 
+## requirement
+
+Your vagrant box should have ansible installed on it, if it's not the case you could use to shell provisioner to install it.
+
 ## Usage
 
 Configure your VagrantFile with the `ansibleLocal` provisioner:
